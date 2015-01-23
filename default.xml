@@ -42,8 +42,8 @@
            sync-c="true"
            sync-j="8" />
 
-  <!-- cm-RemiX -->
-  <project path="cm-RemiX" name="cm-RemiX" remote="cmR" revision="cm-12.0" />
+  <!-- cmRemiX -->
+  <project path="cmRemiX" name="cmRemiX" remote="cmR" revision="cm-12.0" />
   
   <project path="build" name="android_build" groups="pdk,tradefed" remote="cmR" revision="cm-12.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -71,7 +71,7 @@
   <!-- SABER MOD GCC -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8" remote="bb" revision="master" />
-  <!-- Vendor cm-RemiX -->
+  <!-- Vendor cmRemiX -->
   <!--<project path="vendor/cmremix" name="android_vendor_cmremix" remote="cmR" revision="cm-12.0" >
     <copyfile src="tools/build-cmremix.sh" dest="build-cmremix.sh" />
   </project>-->
