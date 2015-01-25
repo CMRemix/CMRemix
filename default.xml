@@ -55,6 +55,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="cmR" revision="cm-12.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cmR" revision="cm-12.0" />
   <!-- Packages Apps -->
+  <!-- <project path="packages/apps/cmRemiXOTA" name="android_packages_apps_cmRemiXOTA" remote="cmR" revision="cm-12.0" /> -->
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="cmR" revision="cm-12.0" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cmR" revision="cm-12.0" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cmR" revision="cm-12.0" />
@@ -63,6 +64,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="cmR" revision="cm-12.0" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="cmR" revision="cm-12.0" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="cmR" revision="cm-12.0" />
+  <!-- <project path="packages/apps/cmRemiXOTA" name="android_packages_apps_cmRemiXOTA" remote="cmR" revision="cm-12.0" /> -->
   <!-- OmniROM -->
   <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="cmR" revision="android-5.0" />
   <project name="android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="cmR" revision="android-5.0" />
