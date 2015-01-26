@@ -66,8 +66,8 @@
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="cmR" revision="cm-12.0" />
   <!-- <project path="packages/apps/cmRemiXOTA" name="android_packages_apps_cmRemiXOTA" remote="cmR" revision="cm-12.0" /> -->
   <!-- OmniROM -->
-  <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="cmR" revision="android-5.0" />
-  <project name="android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="cmR" revision="android-5.0" />
+  <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="cmR" revision="cm-12.0" />
+  <project name="android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="cmR" revision="cm-12.0" />
   <!-- Misc -->
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cm-12.0" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="cmR" revision="cm-12.0" />
