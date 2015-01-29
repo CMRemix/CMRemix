@@ -70,6 +70,7 @@
   <project name="android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="cmR" revision="cm-12.0" />
   <!-- Misc -->
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cm-12.0" />
+  <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="cmR" revision="cm-12.0" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="cmR" revision="cm-12.0" />
   <!-- SABER MOD GCC -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
@@ -351,7 +352,6 @@
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
-  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" />
   <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
