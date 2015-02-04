@@ -66,6 +66,7 @@
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="cmR" revision="cm-12.0" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cmR" revision="cm-12.0" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="cmR" revision="cm-12.0" />
+    <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="cmR" revision="cm-12.0" />
   <!-- <project path="packages/apps/cmRemiXOTA" name="android_packages_apps_cmRemiXOTA" remote="cmR" revision="cm-12.0" /> -->
   <!-- OmniROM -->
   <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="cmR" revision="cm-12.0" />
@@ -474,7 +475,6 @@
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
