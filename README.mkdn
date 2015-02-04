@@ -56,3 +56,9 @@ cmRemiX Build Script
     Example:
         ./build-cmremix.sh -c1 trltetmo
 
+
+Credits 
+========
+
+CyanogenMod, PAC-man, AOKP, crDroid Android, AOSPA, CyanogenMod, OmniROM, SlimROM, LiquidSmooth, SpasilliumNexus, DirtyUnicorns, NamelessROM, AICP, Euphoria-OS And All The Developer That I forget. Thank You All.
+
