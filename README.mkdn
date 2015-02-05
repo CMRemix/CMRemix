@@ -64,6 +64,6 @@ CyanogenMod, PAC-man, AOKP, crDroid Android, AOSPA, CyanogenMod, OmniROM, SlimRO
 
 All Kernel Developers: faux123, Ktoonsez,friedrich420, Pafcholini, Imoseyon, Yank555, Flar2
 
-Special Thanks To: Temasek,slayher, Cristiano Matos, David Viteri and many Thanks to PAC Team For The build Scripts.
+Special Thanks To: Temasek, Cristiano Matos, David Viteri, Slayher,Fattire And Many Thanks to PAC Team For The Bad Ass build Scripts & Tools To Build cmRemiX-Rom.
 
-And All The Developers That I forget. Thank You All.
+And All The Developers That I Forget. Thank You All.
