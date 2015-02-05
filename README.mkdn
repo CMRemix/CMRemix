@@ -4,10 +4,10 @@ cmRemiX
 Getting Started
 ---------------
 
-To get started with Android/cmRemiX, you'll need to get
+To get started with cmRemiX/cmRemiX, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using the cmRemiX trees, use a command like this:
 
     repo init -u git://github.com/cmRemiX/cmRemiX.git -b cm-12.0
 
@@ -60,5 +60,10 @@ cmRemiX Build Script
 Credits 
 ========
 
-CyanogenMod, PAC-man, AOKP, crDroid Android, AOSPA, CyanogenMod, OmniROM, SlimROM, LiquidSmooth, SpasilliumNexus, DirtyUnicorns, NamelessROM, AICP, Euphoria-OS And All The Developer That I forget. Thank You All.
+CyanogenMod, PAC-man, AOKP, crDroid Android, AOSPA, CyanogenMod, OmniROM, SlimROM, LiquidSmooth, SpasilliumNexus, DirtyUnicorns, NamelessROM, AICP, Euphoria-OS.
 
+All Kernel Developers: faux123, Ktoonsez,friedrich420, Pafcholini, Imoseyon, Yank555, Flar2
+
+Special Thanks To: Temasek,slayher, Cristiano Matos, David Viteri and many Thanks to PAC Team For The build Scripts.
+
+And All The Developers That I forget. Thank You All.
