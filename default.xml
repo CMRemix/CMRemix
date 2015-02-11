@@ -67,7 +67,8 @@
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="cmR" revision="cm-12.0" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cmR" revision="cm-12.0" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="cmR" revision="cm-12.0" />
-    <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="cmR" revision="cm-12.0" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="cmR" revision="cm-12.0" />
+  <project path="packages/apps/SlimLauncher" name="android_packages_apps_SlimLauncher" remote="cmR" revision="cm-12.0" />
   <!-- <project path="packages/apps/cmRemiXOTA" name="android_packages_apps_cmRemiXOTA" remote="cmR" revision="cm-12.0" /> -->
   <!-- OmniROM -->
   <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="cmR" revision="cm-12.0" />
@@ -502,7 +503,6 @@
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" />
-  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
