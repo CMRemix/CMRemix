@@ -70,6 +70,8 @@
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="cmR" revision="cm-12.0" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="cmR" revision="cm-12.0" />
   <project path="packages/apps/cmRemiXUpdater" name="android_packages_apps_cmRemiXUpdater" remote="cmR" revision="cm-12.0" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="cmR" revision="cm-12.0" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="cmR" revision="cm-12.0" />
   <!-- OmniROM -->
   <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="cmR" revision="cm-12.0" />
   <project name="android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="cmR" revision="cm-12.0" />
@@ -503,7 +505,6 @@
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
-  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
@@ -533,7 +534,6 @@
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" />
-  <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
