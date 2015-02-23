@@ -72,6 +72,7 @@
   <project path="packages/apps/cmRemiXUpdater" name="android_packages_apps_cmRemiXUpdater" remote="cmR" revision="cm-12.0" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="cmR" revision="cm-12.0" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="cmR" revision="cm-12.0" />
+  <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cmR" revision="cm-12.0" />
   <!-- OmniROM -->
   <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="cmR" revision="cm-12.0" />
   <project name="android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="cmR" revision="cm-12.0" />
@@ -516,7 +517,6 @@
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
