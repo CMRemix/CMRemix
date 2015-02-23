@@ -73,6 +73,7 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="cmR" revision="cm-12.0" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="cmR" revision="cm-12.0" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cmR" revision="cm-12.0" />
+  <project path="packages/apps/SlimCenter" name="android_packages_apps_cmRemiXCenter" remote="cmR" revision="cm-12.0" />
   <!-- OmniROM -->
   <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="cmR" revision="cm-12.0" />
   <project name="android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="cmR" revision="cm-12.0" />
