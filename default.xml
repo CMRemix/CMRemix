@@ -56,6 +56,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="cmR" revision="cm-12.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cmR" revision="cm-12.0" />
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="cmR" revision="cm-12.0" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="cmR" revision="cm-12.0" />
   <!-- Packages Apps -->
   <!-- <project path="packages/apps/cmRemiXOTA" name="android_packages_apps_cmRemiXOTA" remote="cmR" revision="cm-12.0" /> -->
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="cmR" revision="cm-12.0" />
@@ -424,7 +425,6 @@
   <project path="frameworks/opt/net/ethernet" name="CyanogenMod/android_frameworks_opt_net_ethernet" />
   <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" />
-  <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" />
