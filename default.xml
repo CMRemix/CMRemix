@@ -81,6 +81,9 @@
   <!-- OmniROM -->
   <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="cmR" revision="cm-12.0" />
   <project name="android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="cmR" revision="cm-12.0" />
+  <!-- Slim Apps -->
+  <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="lp5.0" />
+  <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="lp5.0" />
   <!-- Misc -->
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cm-12.0" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="cmR" revision="cm-12.0" />
