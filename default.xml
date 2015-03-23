@@ -96,8 +96,9 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" remote="aosp" revision="master" />
-  <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.5" name="llvm-Snapdragon_LLVM_for_Android_3.5/" remote="cmR" revision="master" />
-  <project path="vendor/clanglibs" name="clanglibs" remote="cmR" revision="master"/>
+  <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.6" name="llvm-Snapdragon_LLVM_for_Android_3.6/" remote="cmR" revision="cm-12.0" />
+  <project path="vendor/clanglibs" name="clanglibs" remote="cmR" revision="cm-12.0"/>
+  <project path="external/compiler-rt" name="android_external_compiler-rt" emote="cmR" revision="cm-12.0" />
   
   <!-- Vendor cmRemiX -->
   <project path="vendor/cmremix" name="android_vendor_cmremix" remote="cmR" revision="cm-12.0" >
@@ -195,7 +196,6 @@
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="aosp" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" remote="aosp" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
