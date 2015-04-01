@@ -74,7 +74,7 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="cmR" revision="cm-12.0" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="cmR" revision="cm-12.0" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cmR" revision="cm-12.0" />
-  <project path="packages/apps/SlimCenter" name="android_packages_apps_cmRemiXCenter" remote="cmR" revision="cm-12.0" />
+  <project path="packages/apps/CMRemixCenter" name="android_packages_apps_CMRemixCenter" remote="cmR" revision="cm-12.0" />
   <project path="packages/apps/SlimLauncher" name="android_packages_apps_SlimLauncher" remote="cmR" revision="cm-12.0" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cmR" revision="cm-12.0" />
  
