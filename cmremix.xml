@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- CMRemix Github remote -->
+  <remote  name="cmR"
+           fetch="https://github.com/CMRemix/" />
+  
+  <!-- Generic CMRemix ssh Bitbucket remote -->
+  <remote  name="private-bb"
+           fetch="ssh://git@bitbucket.org/CMRemix" />
+ 
+   <!-- Generic CMRemix Github remote -->
+  <remote  name="bb"
+           fetch="https://bitbucket.org/CMRemix/" />
+  
+  <!-- Generic CMRemix GitLab remote -->
+  <remote  name="gl"
+           fetch="https://gitlab.com/CMRemix" />
+  
+  <!-- Omni Rom Github remote -->
+  <remote  name="omni"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org" />
+
+  <!-- CMRemix Platform Manifest -->
+  <project path="CMRemix" name="CMRemix" remote="cmR" revision="cm-13.0" />
+
+  <!-- CMRemix Build -->
+  <!--<project path="build" name="android_build" remote="cmR" revision="cm-13.0" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>-->
+
+  <!-- SABER MOD GCC -->
+  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="CMRemix/arm-eabi-4.9" remote="gl" revision="master" />-->
+  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="arm-eabi-5.2" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="arm-eabi-6.0" groups="pdk,linux,arm" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" name="arm-linux-androideabi-5.1" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" remote="aosp" revision="master" />-->
+
+  <!-- Clang Qcom Dependencies -->
+  <!--<project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.5" name="llvm-Snapdragon_LLVM_for_Android_3.5/" remote="cmR" revision="clang_qcom_3.5" />
+  <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.6" name="llvm-Snapdragon_LLVM_for_Android_3.6/" remote="cmR" revision="clang_qcom_3.6" />
+  <project path="vendor/clanglibs" name="clanglibs" remote="cmR" revision="clang_qcom_3.6" />
+  <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
+  <project path="prebuilts/ndk" name="android_prebuilts_ndk" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
+  <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />-->
+
+  <!-- Vendor CMRemix & SaberMod -->
+  <!--<project path="vendor/sm" name="android_vendor_SaberMod" remote="cmR" revision="cm-13.0" />
+  <project path="vendor/cmremix" name="android_vendor_CMRemix" remote="cmR" revision="cm-13.0" >
+    <copyfile src="tools/build-cmremix.sh" dest="build-cmremix.sh" />
+  </project>-->
+
+</manifest>
