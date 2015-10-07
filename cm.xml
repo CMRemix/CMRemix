@@ -14,10 +14,10 @@
            sync-j="4" />
 
 <!-- BEGIN CYANOGENMOD -->
-  <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
+  <!--<project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <!--<project path="android" name="CyanogenMod/android" />-->
+  <project path="android" name="CyanogenMod/android" />-->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />

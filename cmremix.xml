@@ -26,9 +26,9 @@
   <project path="CMRemix" name="CMRemix" remote="cmR" revision="cm-13.0" />
 
   <!-- CMRemix Build -->
-  <!--<project path="build" name="android_build" remote="cmR" revision="cm-13.0" >
+  <project path="build" name="android_build" remote="cmR" revision="cm-13.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project>-->
+  </project>
 
   <!-- SABER MOD GCC -->
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="CMRemix/arm-eabi-4.9" remote="gl" revision="master" />-->
@@ -49,7 +49,7 @@
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />-->
 
   <!-- Vendor CMRemix & SaberMod -->
-  <!--<project path="vendor/sm" name="android_vendor_SaberMod" remote="cmR" revision="cm-13.0" />
+  <!--<project path="vendor/sm" name="android_vendor_SaberMod" remote="cmR" revision="cm-13.0" />-->
   <project path="vendor/cmremix" name="android_vendor_CMRemix" remote="cmR" revision="cm-13.0" >
     <copyfile src="tools/build-cmremix.sh" dest="build-cmremix.sh" />
   </project>-->
