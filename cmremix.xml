@@ -30,6 +30,17 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>-->
 
+   <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="cmR" revision="cm-13.0" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="cmR" revision="cm-13.0" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="cmR" revision="cm-13.0" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="cmR" revision="cm-13.0" />
+
+  <!-- Package Apps -->
+  <project path="packages/apps/CMRemixUpdater" name="android_packages_apps_CMRemixUpdater" remote="cmR" revision="cm-13.0" />
+  <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="cmR" revision="cm-13.0" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cmR" revision="cm-13.0" />
+
   <!-- SABER MOD GCC -->
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="CMRemix/arm-eabi-4.9" remote="gl" revision="master" />-->
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
@@ -49,7 +60,8 @@
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />-->
 
   <!-- Vendor CMRemix & SaberMod -->
-  <!--<project path="vendor/sm" name="android_vendor_SaberMod" remote="cmR" revision="cm-13.0" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="cmR" revision="cm-13.0" />
+  <!--<project path="vendor/sm" name="android_vendor_SaberMod" remote="cmR" revision="cm-13.0" />-->
   <project path="vendor/cmremix" name="android_vendor_CMRemix" remote="cmR" revision="cm-13.0" >
     <copyfile src="tools/build-cmremix.sh" dest="build-cmremix.sh" />
   </project>-->
