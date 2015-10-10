@@ -26,7 +26,7 @@
   <project path="CMRemix" name="CMRemix" remote="cmR" revision="cm-13.0" />
 
   <!-- CMRemix Build -->
-  <!--<project path="build" name="android_build" remote="cmR" revision="cm-13.0" >
+  <project path="build" name="android_build" remote="cmR" revision="cm-13.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>-->
 
