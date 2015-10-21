@@ -41,6 +41,10 @@
   <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="cmR" revision="cm-13.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cmR" revision="cm-13.0" />
 
+  <!-- Mics -->
+  <project path="art" name="android_art" groups="pdk" remote="cmR" revision="cm-13.0" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="cmR" revision="cm-13.0" />
+
   <!-- SABER MOD GCC -->
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="CMRemix/arm-eabi-4.9" remote="gl" revision="master" />-->
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
