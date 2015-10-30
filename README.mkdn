@@ -1,5 +1,5 @@
-CMRemiX Roms cm-13.0
-====================
+CMRemiX Roms cm-13.0 - Android 6.0 Marshmallow
+==============================================
 
 Getting Started
 ---------------
