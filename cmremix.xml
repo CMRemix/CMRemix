@@ -46,10 +46,10 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="cmR" revision="cm-13.0" />
 
   <!-- SABER MOD GCC -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
+  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />-->
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="arm-eabi-5.2" remote="bb" revision="master" />-->
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="arm-eabi-6.0" groups="pdk,linux,arm" remote="bb" revision="master" />-->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="bb" revision="master" />-->
 
   <!-- Clang Qcom Dependencies -->
   <!--<project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.5" name="llvm-Snapdragon_LLVM_for_Android_3.5/" remote="cmR" revision="clang_qcom_3.5" />
