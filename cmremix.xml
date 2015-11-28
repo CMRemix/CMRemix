@@ -44,7 +44,10 @@
   <!-- Mics -->
   <project path="art" name="android_art" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="cmR" revision="cm-13.0" />
+  
+  <!-- Mics -->
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="cmR" revision="cm-13.0" />
+  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
 
   <!-- SABER MOD GCC -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
