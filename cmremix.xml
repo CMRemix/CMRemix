@@ -68,9 +68,10 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="arm-linux-androideabi-5.3" remote="bb" revision="master" />
 
   <!-- Clang Qcom Dependencies -->
-  <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.5" name="llvm-Snapdragon_LLVM_for_Android" remote="cmR" revision="llvm-Snapdragon_LLVM_for_Android_3.5" />
-  <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.6" name="llvm-Snapdragon_LLVM_for_Android" remote="cmR" revision="llvm-Snapdragon_LLVM_for_Android_3.6" />
-  <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.7" name="llvm-Snapdragon_LLVM_for_Android" remote="cmR" revision="llvm-Snapdragon_LLVM_for_Android_3.7" />
+  <project path="prebuilts/clang/linux-x86/host/3.7.1" name="llvm-Snapdragon_LLVM_for_Android" remote="cmR" revision="DragonTC_3.7" />
+  <!--<project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.5" name="llvm-Snapdragon_LLVM_for_Android" remote="cmR" revision="llvm-Snapdragon_LLVM_for_Android_3.5" />-->
+  <!--<project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.6" name="llvm-Snapdragon_LLVM_for_Android" remote="cmR" revision="llvm-Snapdragon_LLVM_for_Android_3.6" />-->
+  <!--<project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.7" name="llvm-Snapdragon_LLVM_for_Android" remote="cmR" revision="llvm-Snapdragon_LLVM_for_Android_3.7" />-->
   <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" remote="cmR" revision="clang_qcom_3.7" />
   <project path="prebuilts/ndk" name="android_prebuilts_ndk" groups="pdk" remote="cmR" revision="clang_qcom_3.7" />
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cmR" revision="clang_qcom_3.7" />
