@@ -35,6 +35,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="cmR" revision="cm-13.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="cmR" revision="cm-13.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="cmR" revision="cm-13.0" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="cmR" revision="cm-13.0" />
 
   <!-- Package Apps -->
   <project path="packages/apps/CMRemixOTA" name="android_packages_apps_CMRemixOTA" remote="cmR" revision="cm-13.0" />
