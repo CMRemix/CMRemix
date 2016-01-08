@@ -55,7 +55,9 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="cmR" revision="cm-13.0" />
   
   <!-- External -->
-  <!--<project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="cmR" revision="cm-13.0" />-->
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="cmR" revision="cm-13.0" />
+  <project path="external/jemalloc" name="arter97/android_external_jemalloc" remote="github" revision="android-6.0" />
+  <project path="external/sqlite" name="arter97/android_external_sqlite" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="cmR" revision="cm-13.0" />
 
