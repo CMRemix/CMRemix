@@ -33,12 +33,10 @@
    <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="cmR" revision="cm-13.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="cmR" revision="cm-13.0" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="cmR" revision="cm-13.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="cmR" revision="cm-13.0" />
 
   <!-- Package Apps -->
-  <project path="packages/apps/CMRemixOTA" name="android_packages_apps_CMRemixOTA" remote="cmR" revision="cm-13.0" />
   <project path="packages/apps/CMRemixUpdater" name="android_packages_apps_CMRemixUpdater" remote="cmR" revision="cm-13.0" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="cmR" revision="cm-13.0" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="cmR" revision="cm-13.0" />
@@ -54,15 +52,11 @@
   <project path="art" name="android_art" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="CHANGELOGS" name="CHANGELOGS" remote="cmR" revision="cm-13.0" />
-  <project path="libcore" name="android_libcore" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="cmR" revision="cm-13.0" />
   
   <!-- External -->
-  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="external/jemalloc" name="arter97/android_external_jemalloc" remote="github" revision="android-6.0" />
   <project path="external/sqlite" name="arter97/android_external_sqlite" groups="pdk" remote="github" revision="cm-13.0" />
-  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cm-13.0" />
-  <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="cmR" revision="cm-13.0" />
 
   <!-- SABER MOD GCC -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
@@ -72,9 +66,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="arm-linux-androideabi-5.3" remote="bb" revision="master" />
 
   <!--Custom Clang Dependencies -->
-  <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" remote="cmR" revision="clang_3.7" />
   <project path="prebuilts/ndk" name="android_prebuilts_ndk" groups="pdk" remote="cmR" revision="clang_3.7" />
-  <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cmR" revision="clang_3.7" />
+  <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="prebuilts/clang/linux-x86/host/3.7" name="llvm-Snapdragon_LLVM_for_Android" remote="cmR" revision="DragonTC_3.7" />
   <project path="prebuilts/clang/linux-x86/host/3.8" name="llvm-Snapdragon_LLVM_for_Android" remote="cmR" revision="DragonTC_3.8" />
   <!--<project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.5" name="llvm-Snapdragon_LLVM_for_Android" remote="cmR" revision="llvm-Snapdragon_LLVM_for_Android_3.5" />-->
@@ -85,11 +78,11 @@
   <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="omni" revision="android-6.0" />
 
   <!-- Vendor CMRemix & SaberMod -->
-  <!--<project path="vendor/cm" name="android_vendor_cm" remote="cmR" revision="cm-13.0" />-->
+  <project path="vendor/cm" name="android_vendor_cm" remote="cmR" revision="cm-13.0" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cmR" revision="cm-13.0" />
   <!--<project path="vendor/sm" name="android_vendor_SaberMod" remote="cmR" revision="cm-13.0" />-->
-  <project path="vendor/cmremix" name="android_vendor_CMRemix" remote="cmR" revision="cm-13.0" >
+  <!--<project path="vendor/cmremix" name="android_vendor_CMRemix" remote="cmR" revision="cm-13.0" >
     <copyfile src="tools/build-cmremix.sh" dest="build-cmremix.sh" />
-  </project>-->
+  </project>-->-->
 
 </manifest>
