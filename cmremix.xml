@@ -61,8 +61,10 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="CHANGELOGS" name="CHANGELOGS" remote="cmR" revision="cm-13.0" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="cmR" revision="cm-13.0" />
-  
+  <project path="libcore" name="CyanogenMod/android_libcore" groups="pdk" remote="cmR" revision="cm-13.0" />
+
   <!-- External -->
+  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="external/jemalloc" name="arter97/android_external_jemalloc" remote="github" revision="android-6.0" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cm-13.0" />
