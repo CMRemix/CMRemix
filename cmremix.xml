@@ -42,6 +42,8 @@
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="cmR" revision="cm-13.0" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="cmR" revision="cm-13.0" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="cmR" revision="cm-13.0" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="cmR" revision="cm-13.0" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-fs" remote="cmR" revision="cm-13.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cmR" revision="cm-13.0" />
   <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="cmR" revision="cm-13.0" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="cmR" revision="cm-13.0" />
