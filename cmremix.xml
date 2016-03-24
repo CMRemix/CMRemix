@@ -49,7 +49,6 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cmR" revision="cm-13.0" />
   <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="cmR" revision="cm-13.0" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="cmR" revision="cm-13.0" />
-  <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="cmR" revision="cm-13.0" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="cmR" revision="cm-13.0" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="cmR" revision="cm-13.0" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="cmR" revision="cm-13.0" />
