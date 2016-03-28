@@ -72,6 +72,7 @@
   <project path="external/jemalloc" name="arter97/android_external_jemalloc" remote="github" revision="android-6.0" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cm-13.0" />
+  <project path="external/v8" name="android_external_v8" groups="pdk" rremote="cmR" revision="cm-13.0" />
 
   <!-- SABER MOD GCC -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
