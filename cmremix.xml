@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- CMRemix Github remote -->
+  <remote  name="cmremix-mm"
+           fetch="https://github.com/CMRemix/" />
+  
+  <!-- Generic CMRemix ssh Bitbucket remote -->
+  <remote  name="private-bb"
+           fetch="ssh://git@bitbucket.org/CMRemix" />
+ 
+   <!-- Generic CMRemix Github remote -->
+  <remote  name="bb"
+           fetch="https://bitbucket.org/CMRemix/" />
+  
+  <!-- Generic CMRemix GitLab remote -->
+  <remote  name="gl"
+           fetch="https://gitlab.com/CMRemix" />
+  
+  <!-- Omni Rom Github remote -->
+  <remote  name="omni"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org" />
+
+  <!-- CMRemix Platform Manifest -->
+  <project path="CMRemix" name="CMRemix" remote="cmremix-mm" revision="cm-13.0" />
+
+  <!-- CMRemix Build -->
+  <project path="build" name="android_build" remote="cmremix-mm" revision="cm-13.0" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>-->
+
+   <!-- Frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="cmremix-mm" revision="cm-13.0" />
+
+  <!-- Package Apps -->
+  <project path="packages/apps/CMRemixUpdater" name="android_packages_apps_CMRemixUpdater" remote="cmremix-mm" revision="cm-13.0" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cmremix-mm" revision="cm-13.0" />
+  <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="cmremix-mm" revision="cm-13.0" />
+
+  <!-- OmniROM -->
+  <project name="android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="cmremix-mm" revision="cm-13.0" />
+
+  <!-- Mics -->
+  <project path="CHANGELOGS" name="CHANGELOGS" remote="cmremix-mm" revision="cm-13.0" />
+
+  <!-- External -->
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="cmremix-mm" revision="cm-13.0" />
+
+  <!-- SABER MOD GCC -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
+  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="arm-eabi-5.2" remote="bb" revision="master" />-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="arm-eabi-6.0" groups="pdk,linux,arm" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="arm-linux-androideabi-5.3" remote="bb" revision="master" />
+
+  <!--Custom Clang Dependencies -->
+  <project path="prebuilts/ndk" name="android_prebuilts_ndk" groups="pdk" remote="cmremix-mm" revision="clang_3.7" />
+  <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cmremix-mm" revision="clang_3.7" />
+  <project path="prebuilts/clang/linux-x86/host/3.7" name="llvm-Snapdragon_LLVM_for_Android" remote="cmremix-mm" revision="DragonTC_3.7" />
+  <project path="prebuilts/clang/linux-x86/host/3.8" name="llvm-Snapdragon_LLVM_for_Android" remote="cmremix-mm" revision="DragonTC_3.8" />
+  <project path="prebuilts/clang/linux-x86/host/3.9" name="llvm-Snapdragon_LLVM_for_Android" remote="cmremix-mm" revision="DragonTC_3.9" />
+
+  <!-- Vendor CMRemix & SaberMod -->
+  <!--<project path="vendor/cm" name="android_vendor_cm" remote="cmremix-mm" revision="cm-13.0" />-->
+
+  <project path="vendor/cmremix" name="android_vendor_CMRemix" remote="cmremix-mm" revision="cm-13.0" >
+    <copyfile src="tools/build-cmremix.sh" dest="build-cmremix.sh" />
+  </project>
+
+</manifest>
