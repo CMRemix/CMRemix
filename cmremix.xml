@@ -47,6 +47,12 @@
   <!-- External -->
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="cmR" revision="cmremix-mm" />
 
+  <!-- Mics -->
+  <project path="art" name="android_art" groups="pdk" remote="cmR" revision="cmremix-mm" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="cmR" revision="cmremix-mm" />
+  <project path="CHANGELOGS" name="CHANGELOGS" remote="cmR" revision="cmremix-mm" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="cmR" revision="cmremix-mm" />
+
   <!-- SABER MOD GCC -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="arm-eabi-5.2" remote="bb" revision="master" />-->
