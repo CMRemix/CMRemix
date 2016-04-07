@@ -41,9 +41,6 @@
   <!-- OmniROM -->
   <project name="android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="cmR" revision="cmremix-mm" />
 
-  <!-- Mics -->
-  <project path="CHANGELOGS" name="CHANGELOGS" remote="cmR" revision="cmremix-mm" />
-
   <!-- External -->
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="cmR" revision="cmremix-mm" />
 
