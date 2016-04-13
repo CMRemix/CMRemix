@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CMRemix trees, use a command like this:
 
-    repo init -u https://github.com/CMRemix/CMRemix.git -b cm-13.0
+    repo init -u https://github.com/CMRemix/CMRemix.git -b cmremix-mm
 
 Then to sync up:
 
