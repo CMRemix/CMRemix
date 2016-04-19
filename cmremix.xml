@@ -31,7 +31,7 @@
   </project>-->
 
    <!-- Frameworks -->
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" remote="cmR" revision="cmremix-mm" />
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="cmR" revision="cmremix-mm" />
   <project path="frameworks/base" name="android_frameworks_base" remote="cmR" revision="cmremix-mm" />
 
   <!-- Package Apps -->
