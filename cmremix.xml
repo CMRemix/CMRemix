@@ -64,6 +64,7 @@
   <project path="art" name="android_art" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="CHANGELOGS" name="CHANGELOGS" remote="cmR" revision="cm-13.0" />
+  <project path="ndk" name="ndk" groups="generic_fs" remote="cmR" revision="cm-13.0" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="libcore" name="android_libcore" groups="pdk" remote="cmR" revision="cm-13.0" />
 
