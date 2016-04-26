@@ -70,6 +70,7 @@
   <project path="ndk" name="ndk" groups="generic_fs" remote="cmR" revision="cm-13.0" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="libcore" name="android_libcore" groups="pdk" remote="cmR" revision="cm-13.0" />
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="cmR" revision="cm-13.0" />
 
   <!-- External -->
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="cmR" revision="cm-13.0" />
