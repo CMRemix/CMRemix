@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r30" />
+           revision="refs/tags/android-6.0.1_r43" />
 
   <remote  name="github"
            fetch=".."
@@ -278,8 +278,9 @@
   <!--<project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />-->
 
 <!-- CMSDK SAMPLES -->
-  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="CyanogenMod/android_packages_apps_YahooWeatherProvider" />
 <!-- END CMSDK SAMPLES -->
 
 <!-- END CYANOGENMOD -->
