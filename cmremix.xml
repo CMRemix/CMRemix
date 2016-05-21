@@ -33,6 +33,7 @@
    <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="cmR" revision="cmremix-mm" />
   <project path="frameworks/base" name="android_frameworks_base" remote="cmR" revision="cmremix-mm" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" revision="cmremix-mm" />-
 
   <!-- Package Apps -->
   <project path="packages/apps/CMRemixUpdater" name="android_packages_apps_CMRemixUpdater" remote="cmR" revision="cmremix-mm" />
