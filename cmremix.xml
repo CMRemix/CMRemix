@@ -49,6 +49,7 @@
   <!-- External -->
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="cmR" revision="cmremix-mm" />
   <project path="external/DUtils" name="android_external_DUtils" remote="cmR" revision="cmremix-mm" />
+  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cmremix-mm" />
 
   <!-- Mics -->
   <project path="art" name="android_art" groups="pdk" remote="cmR" revision="cmremix-mm" />
