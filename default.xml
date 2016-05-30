@@ -174,7 +174,7 @@
   <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" />
-  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
+  <!--<project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />-->
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" />
   <project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" groups="intel" />

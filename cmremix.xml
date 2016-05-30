@@ -69,7 +69,7 @@
   <project path="art" name="android_art" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="CHANGELOGS" name="CHANGELOGS" remote="cmR" revision="cm-13.0" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="cmR" revision="cm-13.0" />
+
   <project path="ndk" name="ndk" groups="generic_fs" remote="cmR" revision="cm-13.0" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="libcore" name="android_libcore" groups="pdk" remote="cmR" revision="cm-13.0" />
@@ -81,6 +81,10 @@
   <project path="external/jemalloc" name="android_external_jemalloc" remote="cmR" revision="android-6.0" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="cmR" revision="cm-13.0" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cm-13.0" />
+  
+   <!-- Hardware -->
+   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="cmR" revision="cm-13.0" />
+   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="cmR" revision="cm-13.0" />
 
   <!-- SABER MOD GCC -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
