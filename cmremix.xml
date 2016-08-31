@@ -33,6 +33,7 @@
    <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="cmR" revision="cm-13.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="cmR" revision="cm-13.0" />
+  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="cmR" revision="cm-13.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="cmR" revision="cm-13.0" />
   <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="cmR" revision="cm-13.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="cmR" revision="cm-13.0" />
